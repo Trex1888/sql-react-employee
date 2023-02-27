@@ -1,0 +1,75 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: whitesmoke;
+  height: 100%;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(43, 231, 168);
+}
+
+input {
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  margin: 5px;
+  outline: none;
+  border: none;
+  background-color: rgb(216, 152, 239);
+}
+
+button {
+  width: 310px;
+  height: 50px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(110, 176, 247);
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 80%;
+  transition: ease-out;
+}
+
+.employees {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(244, 147, 130);
+  width: 100%;
+}
+
+.employee {
+  width: 800px;
+  height: auto;
+  font-family: "Courier New", Courier, monospace;
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+}
+
+.employee h3 {
+  margin: 20px;
+}
+
+.right {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 160px;
+}
